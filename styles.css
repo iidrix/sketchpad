@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 20px;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px;
+    width: 80vw;
+}
+
+#grid-holder {
+    display: flex;
+    width: 960px;
+    height: 960px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.square {
+    background-color: rgb(176, 117, 216);
+    flex: 1;
+    margin: 1px;
+}
